@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ef;
+    color: #262626;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #173d2a;
+    padding: 20px 10px;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.hero{
+    min-height: 480px;
+    background-image: url("https://images.unsplash.com/photo-1498889444388-e67ea62c464b?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    color: white;
+    
+}
+.hero h1{
+    font-size: 50px;
+    margin: 0;
+}
+.herop{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.hero button {
+    background-color: #f5b544;
+    color: black;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background:white;
+
+}
+
+.column{
+    flex: 1;  
+}
+
+.column h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.column p{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+/* Contact styles */
+.hero-contact{
+    background-color: #173d2a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+.hero-contact h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero-contact p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+.left,.right{
+    background-color: #173d2a;
+    color: white;
+    padding: 20px;
+    flex: 1;
+}
+.left img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/*make the form area wider*/
+form{
+    width: 95%;
+    max-width: 500px;
+}
+/*make all inputs long*/
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    box-sizing : border-box;
+}
+
+/*make message area taller*/
+textarea{
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-card{
+    background-color: #f5b544;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
